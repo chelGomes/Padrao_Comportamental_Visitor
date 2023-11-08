@@ -17,7 +17,7 @@ public class CompraVisitorTeste {
 
         CompraVisitor visitor = new CompraVisitor();
         assertEquals("Entrega{numeroPedido=110}", visitor.exibir(entrega)); //corrir
-        
+
     }
 
     @Test
